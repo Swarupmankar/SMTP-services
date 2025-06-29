@@ -54,7 +54,7 @@ exports.sendSuggestion = async (req, res, next) => {
 
     return res.status(200).json({
       status: true,
-      message: "Suggestion sent successfully! We'll get back to you shortly.",
+      message: "Message sent successfully! We'll get back to you shortly.",
     });
   } catch (err) {
     console.error("❌ Mail send failed:", err.message);
