@@ -13,6 +13,7 @@ exports.sendSuggestion = async (req, res, next) => {
     const mailOptions = {
       from: `"${name}" <MS_yQbyR1@test-xkjn41m7jj04z781.mlsender.net>`,
       to: process.env.ADMIN_EMAIL,
+      replyTo: email,
       subject: subject || "New Message from Contact Form",
       html: `
        <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Segoe UI', Roboto, sans-serif; background-color: #ffffff; padding: 40px 0;">
