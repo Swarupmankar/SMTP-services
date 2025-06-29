@@ -33,17 +33,14 @@ exports.sendSuggestion = async (req, res, next) => {
             <td style="padding: 30px; color: #1f2937;">
               <p style="margin-bottom: 12px;"><strong style="color: #ea580c;">Name:</strong> ${name}</p>
               <p style="margin-bottom: 12px;"><strong style="color: #ea580c;">Email:</strong> ${email}</p>
-              <p style="margin: 20px 0 6px; font-weight: bold; color: #ea580c;">Message:</p>
-              <p style="white-space: pre-wrap; line-height: 1.6; font-size: 15px; margin-top: 0;">
-                ${message}
-              </p>
+              <p style="margin-bottom: 12px;"><strong style="color: #ea580c;">Message:</strong> ${message}</p>
             </td>
           </tr>
 
           <!-- Footer -->
           <tr>
             <td style="background-color: #f9fafb; text-align: center; font-size: 13px; color: #6b7280; padding: 18px; border-top: 1px solid #e5e7eb;">
-              &copy; 2025 Amit S. Kajale. All rights reserved.
+              &copy; 2025 Amit Kajale. All rights reserved.
             </td>
           </tr>
         </table>
